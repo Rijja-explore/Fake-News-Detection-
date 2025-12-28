@@ -1,8 +1,7 @@
 {% extends "base.html" %}
 {% block title %}Dashboard - TruthGuard{% endblock %}
 {% block extra_css %}
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 <style>
 :root {
 --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -316,8 +315,7 @@ Fake Content</div>
 </div>
 <div class="col-3">
 <span class="d-block"><i class="fas fa-circle text-secondary"></i> Other</span>
-<span class="font-weight-bold">{{ stats.total - stats.reliable - stats.suspicious -
-stats.fake }}</span>
+<span class="font-weight-bold">{{ stats.total - stats.reliable - stats.suspicious - stats.fake }}</span>
 </div>
 </div>
 </div>
