@@ -180,20 +180,6 @@ The application will be available at `http://localhost:5000`
 ```
 Fake-News-Detection/
 ├── README.md                          # Project documentation
-├── Explanation/                       # Detailed component explanations
-│   ├── admin dashboard explain.docx
-│   ├── analyze page.docx
-│   ├── analyze route logic.docx
-│   ├── appmain.docx
-│   ├── Base Template.docx
-│   ├── dashboard explaination.docx
-│   ├── index.docx
-│   └── profile explanation.docx
-├── Fake News Tool- Technology PPT/    # Technology presentations
-│   ├── Fake News Detection & Verification Tool.pptx
-│   └── NLP Technologies.pptx
-├── simplechatbot/                     # Chatbot documentation
-│   └── Enhanced Chatbot.docx
 ├── Milestone-1/                       # Basic application setup
 │   ├── process/
 │   │   ├── app.py
@@ -267,10 +253,20 @@ The project was developed incrementally across four milestones:
 
 ## 📊 Technology Presentation
 
-The `Fake News Tool- Technology PPT/` folder contains detailed presentations about the technologies used:
+### Fake News Detection Methodology
+The platform employs advanced Natural Language Processing (NLP) techniques combined with machine learning to detect fake news:
 
-- **Fake News Detection & Verification Tool.pptx**: Comprehensive overview of the detection methodology and tool capabilities
-- **NLP Technologies.pptx**: Deep dive into Natural Language Processing techniques employed
+- **Text Analysis**: Uses NLTK for tokenization, sentiment analysis, and linguistic feature extraction
+- **AI Integration**: Leverages Google Gemini AI for contextual understanding and credibility assessment
+- **Pattern Recognition**: Identifies sensationalism, bias, and misinformation patterns
+- **Credibility Scoring**: Provides a comprehensive 0-10 scale based on multiple factors
+
+### NLP Technologies Used
+- **Tokenization & POS Tagging**: Breaks down text into meaningful units
+- **Sentiment Analysis**: Detects emotional manipulation and bias
+- **Named Entity Recognition**: Identifies key entities and their context
+- **Semantic Analysis**: Understands meaning beyond literal interpretation
+- **Web Scraping**: Extracts content from URLs using BeautifulSoup4
 
 ## 🤖 Simple Chatbot
 
